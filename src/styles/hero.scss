@@ -1,0 +1,21 @@
+@import 'vars';
+
+.hero{
+    display: flex;
+    height:60vh;
+  justify-content: space-evenly;
+    .photo-container{
+
+        width: 30rem;
+        height: 30rem;
+    }
+   .photo{
+    margin: 1.5rem auto;
+    width: 20rem;
+    height: 20rem;
+    img{
+        object-fit: fill;
+
+    }
+   }
+}
